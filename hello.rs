@@ -1,9 +1,9 @@
 // first hello world eg
 
-fn hello() {
-    println!("Hello World");
-    println!("It's Matt hereeee");
-}
+// fn hello() {
+//     println!("Hello World");
+//     println!("It's Matt hereeee");
+// }
 
 fn main() {
     // In general, the `{}` will be automatically replaced with any
@@ -63,5 +63,6 @@ fn main() {
     let number: f64 = 1.0;
     let width: usize = 5;
     println!("{number:>width$}");
-    hello();
+    let pi = 3.141592;
+    println!("Pi is roughly {pi:.*}", 3)
 }
